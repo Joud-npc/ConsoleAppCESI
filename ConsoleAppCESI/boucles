@@ -1,0 +1,54 @@
+using System;
+using System.Text;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.OutputEncoding = Encoding.UTF8;
+        Console.Write("Entrez votre salaire brut annuel: ");
+        string input = Console.ReadLine();
+        Console.Write("Entrez votre taux d'imposition: ");
+        int TauxImposition = int.Parse(Console.ReadLine());
+        Console.WriteLine();
+        
+        if (!int.TryParse(input, out int SalaireBrutAnnuel))
+        {
+            Console.WriteLine("Votre réponse n'est pas acceptée, veuillez réessayer.");
+            return;
+        }
+
+        // Calcul du salaire net annuel
+        int SalaireNetAnnuel = SalaireBrutAnnuel - (SalaireBrutAnnuel * TauxImposition / 100);
+
+        // Répartition du salaire sur 11 mois (Août non payé)
+        int SalaireNetMensuel = SalaireNetAnnuel / 11;
+
+        // Déclaration des mois
+        string[] Mois = new string[]
+        {
+            "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+        };
+
+        for (int i = 0; i < Mois.Length; i++)
+        {
+            // Août : Pas de salaire
+            if (i == 7) // Août est à l'index 7
+            {
+                Console.WriteLine("Août: En vacances, pas de salaire.");
+                continue;
+            }
+
+            // Décembre : Prime de 10%
+            if (i == 11)
+            {
+                double prime = SalaireBrutAnnuel * 0.10;
+                double salaire_prime = SalaireNetMensuel + prime;
+                Console.WriteLine(Mois[i] + ": " + salaire_prime + "€");
+                continue;
+            }
+
+            Console.WriteLine(Mois[i] + ": " + SalaireNetMensuel + "€");
+        }
+    }
+}
