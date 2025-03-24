@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppCESI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d426b2044a6977c34f5e46a6e67b30029ebb494")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381ac75d90cdc9e598f9a491a9009d1e5e97286d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppCESI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppCESI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\bin\Debug\net9.0\ConsoleAppCESI.exe
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\bin\Debug\net9.0\ConsoleAppCESI.deps.json
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\bin\Debug\net9.0\ConsoleAppCESI.runtimeconfig.json
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\bin\Debug\net9.0\ConsoleAppCESI.dll
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\bin\Debug\net9.0\ConsoleAppCESI.pdb
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.AssemblyInfoInputs.cache
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.AssemblyInfo.cs
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.csproj.CoreCompileInputs.cache
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.sourcelink.json
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.dll
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\refint\ConsoleAppCESI.dll
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.pdb
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ConsoleAppCESI.genruntimeconfig.cache
+C:\Users\pepit\RiderProjects\ConsoleAppCESI\ConsoleAppCESI\obj\Debug\net9.0\ref\ConsoleAppCESI.dll
